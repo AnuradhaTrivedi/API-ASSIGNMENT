@@ -1,0 +1,45 @@
+
+
+
+CREATE TABLE IF NOT EXISTS `products` (
+ 
+ `id` int(11) NOT NULL AUTO_INCREMENT,
+
+  `Title` varchar(32) NOT NULL,
+
+  `image_url` varchar(50) NOT NULL,
+
+  `price` decimal(10,0) NOT NULL,
+
+  `category` varchar(30) NOT NULL,
+
+  `Details` text NOT NULL,
+
+  
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=65 ;
+
+
+INSERT INTO products (id, Title, image_url, price, category, Details) VALUES
+(1, 'Flowers of Joy', 'yellow.png', 336, 'flower', 'its my favourte flower'),
+(2, 'Red Love', 'red.png', 425, 'flower', 'its my favourte flower'),
+(3, 'Blueberry', 'blue.png', 550, 'cake', 'its my favourte cake'),
+(4, 'Bonsai', 'image001.png', 436, 'plant', 'its very awsome plant'),
+(5, 'Indor plants', 'image002.png', 330, 'plant', 'its very awsome plant'),
+(6, 'Coffee', 'coffee.png', 402, 'cake', 'its my favourte cake'),
+(7, 'lucky bamboo plant', 'lucky,jpg', 220, 'plant', 'its my favourte plant'),
+(8, 'Money plants', 'plant.jpg', 336, 'plant', 'its my favourte flower'),
+(9, 'Pink love', 'pink.jpg', 400, 'flower', 'its my awsome flower'),
+(10, 'Blue love', 'blue00.jpg', 320, 'flower', 'its best flower'),
+(11, 'orchids', 'purple.jpg', 403, 'flower', 'its my favourte flower'),
+(12, 'purple flowers', 'image004.jpg', 225, 'flower', 'its my favourte flower'),
+(13, 'stawberry', 'out.png', 1020, 'cake', 'its my favourte cake'),
+(14, 'Outdoor plants', 'image003.jpg', 345, 'plant', 'its my favourte plant'),
+(15, 'Air purifying plant', 'image20.jpg', 678, 'plant', 'its my favourte plant'),
+(16, 'Vanilla', 'image90.png', 990, 'cake', 'its my favourte cake'),
+(17, 'fruit', 'image11.jpg', 999, 'cake', 'its my favourte cake'),
+(18, 'special plants', 'image12.jpg', 1200, 'plant', 'its my favourte plant'),
+(19, 'love u dad', 'dad.jpg', 799, 'flower', 'its my favourte flower'),
+(20, 'ozying love', 'love.jpg',1000, 'flower', 'its my favourte flower');
+
+
